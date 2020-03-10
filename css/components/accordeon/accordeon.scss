@@ -1,0 +1,30 @@
+.accordion-container {
+  margin: 0 0 10px;
+}
+.accordion-toggle {
+  position: relative;
+  display: block;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 300;
+  background: #1d1244;
+  color: #fff;
+  text-decoration: none;
+}
+.accordion-toggle.open,
+.accordion-toggle:hover {
+  background: #a50000;
+}
+.accordion-toggle span.toggle-icon {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+  // font-size: 1.5em;
+}
+.accordion-content {
+  display: none;
+  padding: 20px;
+  overflow: auto;
+  color: #1d1244;
+  font-size: 0.8em;
+}

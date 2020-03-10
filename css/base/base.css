@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+/* BASE  */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16.5pt;
+  font-weight: normal;
+  line-height: 1.75;
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,75 @@
+/* S e c t i o n s*/
+.wrapper {
+  margin-left: 18em;
+}
+
+.header {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.about,
+.regulations,
+.contact,
+.FAQ {
+  max-width: 100%;
+  width: 75em;
+  min-height: 100vh;
+  font-size: 0.7em;
+  padding: 5em 3em 5em 3em;
+}
+
+.about,
+.regulations,
+.contact,
+.FAQ {
+  text-align: justify;
+}
+
+.about {
+  background: #1d1244;
+}
+
+.FAQ {
+  background: white;
+}
+
+.FAQ .header {
+  color: #1d1244;
+  padding-bottom: 20px;
+}
+
+.regulations {
+  background: #7878bdc5;
+}
+
+.regulations__list {
+  margin-left: 1.5em;
+}
+
+.contact {
+  background: #7878bd75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  min-height: 5vh;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer .footer-text {
+  color: #7878bd;
+  font-size: 0.5em;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=section.css.map */

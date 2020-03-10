@@ -1,0 +1,72 @@
+/* INTRO */
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sunshiney&display=swap');
+
+.wrapper__intro.fullscreen {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper__intro.fullscreen {
+    min-height: calc(100vh - 2.5em);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper__intro.fullscreen {
+    padding: 2em 0;
+    min-height: 0;
+  }
+}
+
+.sidebar + .wrapper + .footer {
+  margin-left: 18em;
+}
+
+.wrapper__intro {
+  background-image: url(../img/logo_main.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.intro__logo {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  background: #1d1244;
+  padding: 20px;
+
+  .intro__header {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 80px;
+    color: white;
+  }
+
+  .intro__header--curvy {
+    transform: translate(-40px, 77px);
+
+    h3 {
+      font-size: 40px;
+      font-family: 'Sunshiney', cursive;
+      transform: rotate(190deg);
+    }
+  }
+}
