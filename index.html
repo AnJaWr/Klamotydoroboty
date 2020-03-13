@@ -15,21 +15,21 @@
 
 	<!-- Sidebar -->
 	<section id="sidebar" class="sidebar">
-		<div class="sidebar__navigation">
+		<div class="sidebar__navigation" id="sidebar_nav">
 			<nav>
 				<ul>
-					<li><a href="#intro">Witaj!</a></li>
-					<li><a href="#about">Czym się zajmujemy?</a></li>
-					<li><a href="#FAQ">Pytania i odpowiedzi</a></li>
-					<li><a href="#regulations">Regulaminy</a></li>
-					<li><a href="#contact">Kontakt</a></li>
+					<li><a href="#intro" class="active">Witaj!</a></li>
+					<li><a href="#about" class="">Czym się zajmujemy?</a></li>
+					<li><a href="#FAQ" class="">Pytania i odpowiedzi</a></li>
+					<li><a href="#regulations" class="">Regulaminy</a></li>
+					<li><a href="#contact" class="">Kontakt</a></li>
 				</ul>
 			</nav>
 		</div>
 	</section>
 
 	<!-- Wrapper -->
-	<div id="wrapper" class="wrapper">
+	<div id="wrapper" class="wrapper fullscreen fade-up">
 
 		<!-- Intro -->
 		<section id="intro" class="wrapper__intro fullscreen">
@@ -44,7 +44,7 @@
 			<!-- </div> -->
 		</section>
 
-		<section id="about" class="about">
+		<section id="about" class="about fade-up">
 			<h1 class="header">O nas</h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia dolorem molestiae earum nobis odit
 				nesciunt reiciendis distinctio voluptas tenetur consequatur qui autem, non consectetur inventore soluta
@@ -61,7 +61,7 @@
 				Ipsa impedit nostrum eaque, rem soluta maiores iste excepturi perferendis minima quos, quo, voluptate
 				fugiat similique reprehenderit fugit enim perspiciatis non amet molestiae vel itaque! </p>
 		</section>
-		<section id="FAQ" class="FAQ">
+		<section id="FAQ" class="FAQ fade-up">
 			<h1 class="header">Najczęstsze pytania i odpowiedzi</h1>
 
 
@@ -126,63 +126,73 @@
 
 
 		<section id="contact" class="contact">
-			<div class="contact__form ">
-				<form class="contact__form-style">
+			<div class="contact__main">
+				<div class="contact__form ">
+					<form class="contact__form-style">
+						<ul>
+							<li class=""><label>Imię *</label><input type="text" name="name" class="" /></li>
+							<li>
+								<label>Email *</label>
+								<input type="email" name="email" class="" />
+							</li>
+							<li>
+								<label>Wiadomość *</label>
+								<textarea name="message" id="message" class=""></textarea>
+							</li>
+							<li>
+								<input type="submit" value="Submit" />
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="contact__adress">
 					<ul>
-						<li class=""><label>Imię *</label><input type="text" name="name" class="" /></li>
-						<li>
-							<label>Email *</label>
-							<input type="email" name="email" class="" />
+						<li class="contact__adress-list">
+							Warszawa Ursynów Natolin
 						</li>
-						<li>
-							<label>Wiadomość *</label>
-							<textarea name="message" id="message" class=""></textarea>
+						<li class="contact__adress-list">
+							<a href="#">user@email.pl</a>
 						</li>
-						<li>
-							<input type="submit" value="Submit" />
+						<li class="contact__adress-list">
+							Telefon: (000) 000-0000
 						</li>
+						<li class="contact__adress-list">
+							<a href="#">Messenger <i class="fab fa-facebook-messenger"></i></a>
+						</li>
+
 					</ul>
-				</form>
-			</div>
-			<div class="contact__adress">
-				<ul>
-					<li class="contact__adress-list">
-						Warszawa Ursynów Natolin
-					</li>
-					<li class="contact__adress-list">
-						<a href="#">user@email.pl</a>
-					</li>
-					<li class="contact__adress-list">
-						Telefon: (000) 000-0000
-					</li>
-					<li class="contact__adress-list">
-						<a href="#">Messenger <i class="fab fa-facebook-messenger"></i></a>
-					</li>
-
-				</ul>
+				</div>
 
 			</div>
+			<!-- Footer -->
+
 	</div>
+	<!-- 
+	</div> -->
 	</section>
 
-
-	<!-- Footer -->
+	</div>
 	<footer id="footer" class="footer">
 
 		<div class="footer-text">Coded with love by Anna Wróbel</div>
 
 	</footer>
 
+
+
+
 	<!-- Scripts -->
-	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- 
 	<script src="js/jquery.scrollex.min.js"></script>
 	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/breakpoints.min.js"></script>
+
 	<script src="js/browser.min.js"></script>
 	<script src="js/breakpoints.min.js"></script>
 	<script src="js/util.js"></script> -->
 
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/main.js"></script>
 </body>
 
 </html>

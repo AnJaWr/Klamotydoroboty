@@ -1,99 +1,93 @@
 /* FORM */
 
-// .contact__form {}
+.contact__main {
+  display: flex;
+  align-content: flex-start;
+}
 
 .contact__form,
 .contact__adress {
-    width: 48%;
-    display: inline-block;
+  width: 48%;
+  display: inline-block;
 }
 
 .contact__form-style {
+  ul li {
+    display: block;
+    list-style: none;
+    // width: 100%;
+  }
 
+  label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #3f3f72;
+  }
 
-    ul li {
-        display: block;
-        list-style: none;
-        // width: 100%;
-    }
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 90%;
+    color: #7878bd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #bebebe;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
 
-    label {
-        margin: 0 0 3px 0;
-        padding: 0px;
-        display: block;
-        font-weight: bold;
-        font-size: 0.7em;
-        color: #3f3f72;
-    }
+  input[type='text']:focus,
+  input[type='email']:focus,
+  textarea:focus {
+    border: 1px solid rgb(75, 64, 179);
+  }
 
-    input[type=text],
-    input[type=email],
-    textarea {
-        width: 90%;
-        color: #7878bd;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        border: 1px solid #BEBEBE;
-        padding: 7px;
-        margin: 0px;
-        -webkit-transition: all 0.30s ease-in-out;
-        -moz-transition: all 0.30s ease-in-out;
-        -ms-transition: all 0.30s ease-in-out;
-        -o-transition: all 0.30s ease-in-out;
-        transition: all 0.30s ease-in-out;
-        outline: none;
-    }
+  textarea {
+    height: 100px;
+    margin-bottom: 20px;
+  }
 
-    input[type=text]:focus,
-    input[type=email]:focus,
-    textarea:focus {
-        border: 1px solid rgb(75, 64, 179);
-    }
+  input[type='submit'],
+  input[type='button'] {
+    background: #7878bd;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
 
-
-
-    textarea {
-        height: 100px;
-        margin-bottom: 20px;
-        ;
-    }
-
-    input[type=submit],
-    input[type=button] {
-        background: #7878bd;
-        padding: 8px 15px 8px 15px;
-        border: none;
-        color: #fff;
-        -webkit-transition: all 0.30s ease-in-out;
-        -moz-transition: all 0.30s ease-in-out;
-        -ms-transition: all 0.30s ease-in-out;
-        -o-transition: all 0.30s ease-in-out;
-        transition: all 0.30s ease-in-out;
-    }
-
-    input[type=submit]:hover,
-    input[type=button]:hover {
-        background: #3f3f72;
-
-    }
-
-
+  input[type='submit']:hover,
+  input[type='button']:hover {
+    background: #3f3f72;
+  }
 }
 
 .contact__adress ul {
-    list-style: none;
+  list-style: none;
 }
 
 .contact__adress-list {
+  color: #3f3f72;
+  // font-weight: bolder;
 
+  a,
+  i {
     color: #3f3f72;
-    // font-weight: bolder;
 
-    a,
-    i {
-        color: #3f3f72;
-
-        text-decoration: none;
-    }
+    text-decoration: none;
+  }
 }

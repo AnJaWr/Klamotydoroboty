@@ -97,8 +97,8 @@
         linear,
         left top,
         right top,
-        from(#705ba3),
-        to(#d860ac)
+        from(#1d1138),
+        to(#e21515)
       );
       background-image: linear-gradient(to right, #705ba3, #d860ac);
       -webkit-transition: max-width 0.2s ease;
@@ -111,7 +111,7 @@
     }
 
     a.active {
-      color: #a80000;
+      color: red;
     }
 
     a.active:after {

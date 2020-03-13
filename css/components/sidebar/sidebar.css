@@ -103,7 +103,7 @@
 }
 
 .sidebar__navigation nav a.active {
-  color: #a80000;
+  color: red;
 }
 
 .sidebar__navigation nav a.active:after {

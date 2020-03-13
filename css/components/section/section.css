@@ -10,7 +10,6 @@
 
 .about,
 .regulations,
-.contact,
 .FAQ {
   max-width: 100%;
   width: 75em;
@@ -21,7 +20,6 @@
 
 .about,
 .regulations,
-.contact,
 .FAQ {
   text-align: justify;
 }
@@ -48,14 +46,28 @@
 }
 
 .contact {
+  max-width: 100%;
+  min-height: 80vh;
+  font-size: 0.7em;
+  padding: 5em 3em 5em 3em;
   background: #7878bd75;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact {
+  text-align: justify;
 }
 
 .footer {
-  min-height: 5vh;
+  min-height: 7vh;
   background: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,13 +75,21 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
 }
 
 .footer .footer-text {
   color: #7878bd;
   font-size: 0.5em;
   padding-right: 20px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=section.css.map */
